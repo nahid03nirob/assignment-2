@@ -42,3 +42,28 @@ span {
     cursor: pointer;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.herobg {
+    max-width: 100%;
+    height: auto;
+}
+.hero-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+
+    
+}
+.microphone {
+    
+}
