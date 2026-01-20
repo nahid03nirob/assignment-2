@@ -58,6 +58,7 @@ span {
 .wave {
   position: absolute;
   width: 100%;
+  z-index: 1;
 }
 
 .circle-box {
@@ -81,6 +82,7 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px; 
+  z-index: 3;
 }
 
 
