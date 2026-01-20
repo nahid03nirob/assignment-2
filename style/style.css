@@ -274,3 +274,53 @@ h5 {
   justify-content: center;
   gap: 10px;
 }
+
+
+@media (max-width:576px){
+
+  .navbar{
+    padding:16px 20px;
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .links{
+    flex-direction:column;
+  }
+
+  .circle-box{
+    width:280px;
+    height:280px;
+    top:120px;
+  }
+
+  .icon{
+    width:100px;
+  }
+
+  .btn2{
+    flex-direction:column;
+  }
+
+  .count,
+  .reason{
+    flex-direction:column;
+    padding:30px 20px;
+    text-align:center;
+    gap:15px;
+  }
+
+  .grid,
+  .grid2{
+    grid-template-columns:1fr;
+  }
+
+  .premium,
+  .mobile,
+  .global,
+  .interview,
+  .resources{
+    grid-column:auto;
+    grid-row:auto;
+  }
+}
