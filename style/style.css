@@ -21,6 +21,7 @@ span {
     align-items: center;
     justify-content: space-between;
     padding: 16px 200px;
+  
 }
 .links {
     display: flex;
@@ -282,6 +283,7 @@ h5 {
     padding:16px 20px;
     flex-direction:column;
     gap:15px;
+    
   }
 
   .links{
